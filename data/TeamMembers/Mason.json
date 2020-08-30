@@ -1,0 +1,20 @@
+{
+  "name": "Mason Bates",
+  "position": "Project Lead",
+  "picture": "/assets/profilePictures/placeholder.webp",
+  "bio": "This is a bit about me",
+  "games": [
+    "CyberDefense",
+    "AkBal",
+    "StandardGameTemplate"
+  ],
+  "articles":[
+    "TemplateSetUp"
+  ],
+  "websites":[
+    {
+      "title": "itch.io",
+      "link": "https://mcbate1.itch.io/"
+    }
+  ]
+}

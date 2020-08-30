@@ -1,0 +1,20 @@
+{
+  "name": "Jimmy Parello",
+  "position": "3D Artist - Contractor",
+  "picture": "/assets/profilePictures/placeholder.webp",
+  "bio": "",
+  "games": [
+    "CyberDefense",
+    "AkBal",
+    "StandardGameTemplate"
+  ],
+  "articles":[
+    ""
+  ],
+  "websites":[
+    {
+      "title": "",
+      "link": ""
+    }
+  ]
+}

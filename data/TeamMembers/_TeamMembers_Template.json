@@ -1,0 +1,37 @@
+{
+  "listLayout":{
+      "tag": "article",
+      "classes" :["teamMember-card"],
+      "children" :[
+        {
+          "tag": "img",
+          "classes" : ["profileImage"],
+          "srcKey": "picture",
+          "altKey": "name"
+        },
+        {
+          "tag": "div",
+          "classes": ["profileInfoContainer"],
+          "children":[
+            {
+              "tag": "h2",
+              "startContent": "name"
+            },
+            {
+              "tag": "h3",
+              "startContent": "position"
+            },
+            {
+              "tag": "a",
+              "listParent": "websites",
+              "startContent": "title",
+              "hrefKey": "link"
+            }
+          ]
+        }
+      ]
+  },
+  "page-layout":{
+
+  }
+}

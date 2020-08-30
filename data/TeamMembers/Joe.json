@@ -1,0 +1,19 @@
+{
+  "name": "Joe Gawlik",
+  "position": "3D Artist",
+  "picture": "/assets/profilePictures/placeholder.webp",
+  "bio": "This is about Joe",
+  "games": [
+    "CyberDefense",
+    "AkBal"
+  ],
+  "articles":[
+    ""
+  ],
+  "websites":[
+    {
+      "title": "",
+      "link": ""
+    }
+  ]
+}
