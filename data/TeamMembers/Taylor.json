@@ -2,17 +2,34 @@
   "name": "Taylor Santucci",
   "position": "2D Artist - Contractor",
   "picture": "/assets/profilePictures/placeholder.webp",
-  "bio": "",
+  "email":"tds4@illinois.edu",
+  "emailLink":"mailto:tds4@illinois.edu",
+  "quote":"",
   "games": [
-    "AkBal"
+    {
+      "title":"AkBal",
+      "link":"/pages/list/?focus=Games&target=AkBal",
+    }
   ],
   "articles":[
-    ""
+    
   ],
   "websites":[
     {
       "title": "PROFILE",
       "link": "/pages/list/?focus=TeamMembers&target=Taylor"
+    },
+    {
+      "title": "PORTFOLIO",
+      "link": "https://tucci1999.wixsite.com/thezombae-portfolio"
     }
-  ]
+  ],
+  "bio": [
+    {
+      "paragraph":"Senior at the University of Illinois studying advertising and design. Currently assisting with 2D concept art."
+    },
+    {
+      "paragraph:""
+    }
+   ]
 }
