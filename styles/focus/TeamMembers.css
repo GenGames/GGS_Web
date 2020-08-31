@@ -1,0 +1,99 @@
+div.profileContainer{
+  background-color: #888;
+  padding: 10px;
+  box-shadow: 1px 1px 2px #333;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: "2fr 1fr 2fr";
+  grid-template-rows: "1fr 1fr";
+  grid-template-areas:
+  "img profileHeader profileHeader"
+  "bio bio links"
+}
+
+div.profileContainer img{
+  border-radius: 5px;
+  grid-area: img;
+}
+
+div.profileContainer div.profileHeader{
+  grid-area: profileHeader;
+  padding: 10px;
+  text-align: center;
+}
+
+div.profileContainer div.profileHeader h1{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+div.profileContainer div.profileHeader h2{
+  margin: 10px 0;
+}
+
+div.profileContainer div.profileHeader div.gamesMade a{
+  padding: 10px;
+  margin:10px 5px;
+  color: navy;
+  background-color: #eee;
+  border: 3px solid navy;
+  display: inline-block;
+}
+
+div.profileContainer div.profileHeader div.gamesMade a:hover{
+  color: #eee;
+  background-color: navy;
+  transition: .2s
+}
+
+div.profileContainer div.profileHeader div.articlesWritten a{
+  padding: 10px;
+  margin:10px 5px;
+  color: #eee;
+  background-color: navy;
+  border: 3px solid #eee;
+  display: inline-block;
+}
+
+div.profileContainer div.profileHeader div.articlesWritten a:hover{
+  color: navy;
+  background-color: #eee;
+  transition: .2s
+}
+
+div.profileContainer div.bioWrapper{
+  grid-area: bio;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+div.profileContainer div.QuoteAndLinks{
+  grid-area: links;
+  padding: 5px;
+}
+
+div.profileContainer div.QuoteAndLinks blockquote{
+  width: auto;
+  margin: 0 0 10px 0;
+  background-color: #666;
+  padding: 30px;
+  font-style: italic;
+}
+
+div.profileContainer div.QuoteAndLinks a {
+  display: block;
+  width: 100%;
+  margin: 5px 0px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #eee;
+  border: 3px solid navy;
+  color: navy;
+  font-weight: bold;
+}
+
+div.profileContainer div.QuoteAndLinks a:hover{
+  background-color: navy;
+  color: #eee;
+  transition: .2s
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Cyber Defense",
+  "description": "Claim the cyber city of New Theus through tactical prowess and commanding wit.",
+  "coverTitle": "Cyber Defense",
+  "coverSubtitle": "",
+  "coverImage": "/assets/games/CyberDefense/CyberDefense_Cover.png",
+  "gameIcon": "/assets/games/CyberDefense/CyberDefense-jpeg.jpg",
+  "releaseDate": "08/14/2020",
+  "summary": "In Cyber Defense you play as one of Three Factions in order to take control of the independent City of New Theus, by taking the administrative tower called The Anvil, currently owned by the ruling government of the same name. To fight for the tower in an open battlefield within the inner city, each faction has a brief narrative campaign where you get a chance to experience each of the units and strategies of that faction.",
+  "videos": [
+    {
+      "title": "Trailer",
+      "link": "https://youtu.be/y93RqL_JLWI",
+      "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/y93RqL_JLWI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    }
+  ],
+  "contributors":[
+    {
+      "Name":"",
+      "Position": "",
+      "Profile": ""
+    }
+  ],
+  "additionalImages": [
+    {
+      "path":""
+    }
+  ],
+  "platforms": [
+    {
+      "platformName": "",
+      "gameLink": ""
+    }
+  ]
+}

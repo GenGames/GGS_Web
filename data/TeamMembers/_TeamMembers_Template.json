@@ -7,11 +7,21 @@
           "tag": "img",
           "classes" : ["profileImage"],
           "srcKey": "picture",
-          "altKey": "name"
+          "altKey": "name",
+          "properties": [
+            {
+              "key": "width",
+              "value": "150"
+            },
+            {
+              "key": "height",
+              "value": "150"
+            }
+          ]
         },
         {
           "tag": "div",
-          "classes": ["profileInfoContainer"],
+          "classes": ["profileHeader"],
           "children":[
             {
               "tag": "h2",
@@ -23,15 +33,126 @@
             },
             {
               "tag": "a",
+              "startContent": "email",
+              "hrefKey": "emailLink"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "classes":["profileExtraContent"],
+          "children":[
+            {
+              "tag": "blockquote",
+              "startContent":"quote"
+            },
+            {
+              "tag":"a",
+              "classes": ["portfolioLinks"],
               "listParent": "websites",
-              "startContent": "title",
-              "hrefKey": "link"
+              "hrefKey": "link",
+              "startContent":"title"
             }
           ]
         }
       ]
   },
-  "page-layout":{
-
+  "pageLayout":{
+    "tag":"div",
+    "classes": ["profileContainer"],
+    "children":[
+      {
+        "tag":"img",
+        "classes" : ["profileImage"],
+        "srcKey": "picture",
+        "altKey": "name",
+        "properties": [
+          {
+            "key": "width",
+            "value": "250"
+          },
+          {
+            "key": "height",
+            "value": "250"
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": ["profileHeader"],
+        "children":[
+          {
+            "tag":"h1",
+            "startContent": "name",
+            "classes":["TeamMemberName"]
+          },
+          {
+            "tag": "h2",
+            "startContent": "position"
+          },
+          {
+            "tag":"a",
+            "hrefKey":"emailLink",
+            "startContent":"email"
+          },
+          {
+            "tag": "div",
+            "classes":["gamesMade"],
+            "forcedInsert":"<h3 class='gamesTitle' style='display:inline-block;'>GGS Games: </h3>",
+            "children":[
+              {
+                "tag":"a",
+                "hrefKey":"link",
+                "startContent":"title",
+                "listParent":"games",
+                "classes":["gamesListItem"]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes":["articlesWritten"],
+            "forcedInsert":"<h3 class='articlesTitle' style='display:inline-block;'>GGS Articles: </h3>",
+            "children":[
+              {
+                "tag":"a",
+                "hrefKey":"link",
+                "startContent":"title",
+                "listParent":"articles",
+                "classes":["articlesListItem"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": ["bioWrapper"],
+        "forcedInsert": "<h2>Bio:</h2>",
+        "children":[
+          {
+            "tag":"p",
+            "startContent":"paragraph",
+            "listParent":"bio"
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": ["QuoteAndLinks"],
+        "children":[
+          {
+            "tag":"blockquote",
+            "startContent":"quote"
+          },
+          {
+            "tag":"a",
+            "hrefKey":"link",
+            "startContent":"title",
+            "listParent":"websites"
+          }
+        ]
+      }
+    ]
   }
 }

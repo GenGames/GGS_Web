@@ -9,38 +9,81 @@ function buildElement(elementStructure, dataSource){
   var src = dataSource[elementStructure.srcKey] || "";
   var alt = dataSource[elementStructure.altKey] || "";
   var href = dataSource[elementStructure.hrefKey] || "";
+  var listParent = elementStructure.listParent || "";
+  var forcedInsert = elementStructure.forcedInsert || "";
 
-  var classHtml = (0 != classes.length)? "class='":"";
-  for (var i = 0; i < classes.length; i++) {
-    classHtml += classes[i] + " ";
+  var html = "";
 
-    if (i+1 == classes.length) {
-      classHtml += "' ";
+  if (listParent == "") {
+    var classHtml = (0 != classes.length)? "class='":"";
+    for (var i = 0; i < classes.length; i++) {
+      classHtml += classes[i] + " ";
+
+      if (i+1 == classes.length) {
+        classHtml += "' ";
+      }
     }
+
+    var imageHtml = (src != "")? "src='" + src + "' alt='" + alt + "' ":"";
+    var anchorHTML = (href != "")? "href='" + href +"' ":"";
+
+    var propertiesHtml = "";
+    for (var i = 0; i < properties.length; i++) {
+      propertiesHtml += properties[i].key +"='"+properties[i].value+"' ";
+    }
+
+    var idHtml = (id == "")? "": "id='" + id + "'";
+
+    html += "<" + tag +" " + imageHtml + anchorHTML + idHtml + classHtml + propertiesHtml +"> " + forcedInsert + startContent;
+
+    // add all embedded content
+    for (var i = 0; i < children.length; i++) {
+      html += buildElement(children[i], dataSource);
+    }
+
+    html += endContent + "</" + tag + ">";
   }
+  else
+  {
+    dataSource[elementStructure.listParent].forEach((item, i) => {
+      href = item[elementStructure.hrefKey] || "";
+      src = item[elementStructure.srcKey] || "";
+      alt = item[elementStructure.altKey] || "";
+      startContent = item[elementStructure.startContent] || "";
+      endContent = item[elementStructure.endContent] || "";
 
-  var imageHtml = (src != "")? "src='" + src + "' alt='" + alt + "' ":"";
-  var anchorHTML = (href != "")? "href='" + href +"' ":"";
+      var classHtml = (0 != classes.length)? "class='":"";
+      for (var i = 0; i < classes.length; i++) {
+        classHtml += classes[i] + " ";
 
-  var propertiesHtml = "";
-  for (var i = 0; i < properties.length; i++) {
-    propertiesHtml += properties[i].key +"='"+properties[i].value+"' ";
+        if (i+1 == classes.length) {
+          classHtml += "' ";
+        }
+      }
+
+      var imageHtml = (src != "")? "src='" + src + "' alt='" + alt + "' ":"";
+      var anchorHTML = (href != "")? "href='" + href +"' ":"";
+
+      var propertiesHtml = "";
+      for (var i = 0; i < properties.length; i++) {
+        propertiesHtml += properties[i].key +"='"+properties[i].value+"' ";
+      }
+
+      var idHtml = (id == "")? "": "id='" + id + "'";
+
+      html += "<" + tag +" " + imageHtml + anchorHTML + idHtml + classHtml + propertiesHtml +"> " + startContent;
+
+      // add all embedded content
+      for (var i = 0; i < children.length; i++) {
+        html += buildElement(children[i], dataSource);
+      }
+
+      html += endContent + "</" + tag + ">";
+    });
   }
-
-  var idHtml = (id == "")? "": "id='" + id + "'";
-
-  var html = "<" + tag +" " + imageHtml + anchorHTML + idHtml + classHtml + propertiesHtml +"> " + startContent;
-
-  // add all embedded content
-  for (var i = 0; i < children.length; i++) {
-    html += buildElement(children[i], dataSource);
-  }
-
-  html += endContent + "</" + tag + ">";
 
   return html;
 }
-
 
 function LoadAndDisplayFile(structurePath, dataPath, layoutType){
   loadFileAsString(structurePath,(structDataString)=>{
@@ -58,9 +101,9 @@ function LoadAndDisplayFile(structurePath, dataPath, layoutType){
 }
 
 function determineLoadData(query){
-  if (query["focus"] != undefined && query["focus"] != "undefined")
+  if (query["focus"] != undefined && query["focus"] != "undefined" && query["target"] != undefined && query["target"] != "undefined")
   {
-    console.log("loading profile page");
+    LoadFocusData(query["focus"],query["target"],"pageLayout");
   }
   else if (query["list"] != undefined && query["list"] != "undefined")
   {
@@ -71,11 +114,16 @@ function determineLoadData(query){
   }
 }
 
-function LoadListData(folderLocation,dataFilesArray,layoutType)
-{
+function LoadListData(folderLocation,dataFilesArray,layoutType){
   for (var i = 0; i < dataFilesArray.length; i++) {
     var templateUrl = "/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
     var dataFileUrl = "/data/" + folderLocation + "/" + dataFilesArray[i] + ".json";
     LoadAndDisplayFile(templateUrl,dataFileUrl,layoutType);
   }
+}
+
+function LoadFocusData(folderLocation,dataFile,layoutType){
+  var templateUrl = "/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
+  var dataFileUrl = "/data/" + folderLocation + "/" + dataFile + ".json";
+  LoadAndDisplayFile(templateUrl,dataFileUrl,layoutType);
 }

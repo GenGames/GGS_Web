@@ -1,0 +1,58 @@
+article.teamMember-card{
+  box-shadow: 1px .5px 3px #222;
+  margin: 13px;
+  padding: 10px;
+  display: inline-grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 150px 150px;
+  grid-template-areas:
+  "img profileHeader"
+  "profileExtraContent profileExtraContent";
+  border-radius: 5px;
+  background-color: #888;
+  max-width: 500px;
+}
+
+article.teamMember-card img.profileImage{
+  grid-area: img;
+  border-radius: 50%;
+}
+
+article.teamMember-card div.profileHeader{
+  grid-area: profileHeader;
+  padding: 10px;
+}
+
+article.teamMember-card div.profileExtraContent{
+  grid-area: profileExtraContent;
+  padding: 10px;
+}
+
+article.teamMember-card div.profileHeader h2{
+  margin: 0px 0px 10px 0px;
+}
+
+article.teamMember-card div.profileExtraContent blockquote{
+  font-style: italic;
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
+a.portfolioLinks{
+  display: inline-block;
+  color: navy;
+  margin: 0px 12px;
+  border: 3px solid navy;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  float: right;
+}
+
+a.portfolioLinks:hover{
+  color: #fff;
+  background-color: navy;
+  transition: .25s;
+}

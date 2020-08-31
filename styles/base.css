@@ -1,3 +1,17 @@
 body {
-  background-color: #222;
+  background-color: #666;
+  font-family: 'Raleway', sans-serif;
+}
+ a{
+   text-decoration: none;
+   font-size: 1.2em;
+ }
+
+ a:hover{
+   color: white;
+   transition: .2s;
+ }
+
+h1,h2,{
+  font-family: 'Lexend Peta', sans-serif;
 }
