@@ -16,9 +16,34 @@
   ],
   "contributors":[
     {
-      "Name":"",
-      "Position": "",
-      "Profile": ""
+      "Name":"Mason Bates",
+      "Position": "Project Lead, Software Developer",
+      "Profile": "/pages/list/?focus=TeamMembers&target=Mason"
+    },
+    {
+      "Name":"Nick Huber",
+      "Position": "3D Artist, Software Developer",
+      "Profile": "/pages/list/?focus=TeamMembers&target=Nick"
+    },
+    {
+      "Name":"Will Andrews",
+      "Position": "Sound Designer",
+      "Profile": "/pages/list/?focus=TeamMembers&target=Will"
+    },
+    {
+      "Name":"Joe Gawlik",
+      "Position": "Lead Artist",
+      "Profile": "/pages/list/?focus=TeamMembers&target=Joe"
+    },
+    {
+      "Name":"Scott Shin",
+      "Position": "2D Digital Artist",
+      "Profile": "/pages/list/?focus=TeamMembers&target=Scott"
+    },
+    {
+      "Name":"Jimmy Parello",
+      "Position": "3D Artist",
+      "Profile": "/pages/list/?focus=TeamMembers&target=Jimmy"
     }
   ],
   "additionalImages": [

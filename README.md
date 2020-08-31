@@ -11,4 +11,5 @@
 ## Some other notes
 - If you don't know how to edit JSON data, send Mason a txt, word, excel, or another text doc that has all the information labelled and filled out and he will add it for you
 - Make sure you put your images under the assets folder in the right location. Otherwise errors might occur, for adding images to the JSON, make sure you copy the full local path (case matters)
-- DO NOT EDIT THE HTML, CSS, OR JAVASCRIPT files without talking to Mason first, there is *a lot* happening on the back end of this, and even very very minor changes such as adding a random space or line break to the html can *botch* the entire site.
+- **DO NOT EDIT THE HTML, CSS, OR JAVASCRIPT** files without talking to Mason first, there is *a lot* happening on the back end of this, and even very very minor changes such as adding a random space or line break to the html can *botch* the entire site.
+- if you want to edit items, **DO NOT** make a new JSON file, just change the existing one in the data folder.
