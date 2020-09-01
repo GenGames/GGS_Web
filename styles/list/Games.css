@@ -1,0 +1,38 @@
+a.coverImageWrapper{
+  display: inline-block;
+  height: 350px;
+  width: 600px;
+  margin: 10px;
+}
+
+a.coverImageWrapper img{
+  filter: brightness(70%);
+  width: inherit;
+  height: inherit;
+  box-shadow: 1px 1px 3px black;
+}
+
+a.coverImageWrapper h2{
+  text-align: center;
+  color: #ddd;
+  position: relative;
+  top: -150px;
+  font-size: 3em;
+  text-shadow: 0px 0px 20px #ddd;
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+a.coverImageWrapper:hover h2{
+  color: #fff;
+  text-shadow: 0px 0px 35px #fff;
+  transition: .25s;
+}
+
+a.coverImageWrapper:hover img{
+  filter: brightness(150%);
+  transition: 1s;
+  border-radius: 3px;
+  box-shadow: 1px 1px 12px #888;
+}

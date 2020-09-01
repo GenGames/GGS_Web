@@ -1,8 +1,6 @@
 div.profileContainer{
-  background-color: #888;
   padding: 10px;
   box-shadow: 1px 1px 2px #333;
-  border-radius: 10px;
   display: grid;
   grid-template-columns: "2fr 1fr 2fr";
   grid-template-rows: "1fr 1fr";
@@ -20,6 +18,8 @@ div.profileContainer div.profileHeader{
   grid-area: profileHeader;
   padding: 10px;
   text-align: center;
+  background-color: #ffffff20;
+  color: #ddd;
 }
 
 div.profileContainer div.profileHeader h1{
@@ -65,19 +65,26 @@ div.profileContainer div.bioWrapper{
   grid-area: bio;
   padding: 10px;
   font-size: 1.1em;
+  border-radius: 5px 0 0 5px;
+  background-color: #ccc;
 }
 
 div.profileContainer div.QuoteAndLinks{
   grid-area: links;
-  padding: 5px;
+  padding: 25px;
+  background-color: #666;
+  border-radius: 0 5px 5px 0;
 }
 
 div.profileContainer div.QuoteAndLinks blockquote{
   width: auto;
   margin: 0 0 10px 0;
-  background-color: #666;
+  background-color: #333;
   padding: 30px;
   font-style: italic;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 div.profileContainer div.QuoteAndLinks a {
@@ -89,6 +96,7 @@ div.profileContainer div.QuoteAndLinks a {
   background-color: #eee;
   border: 3px solid navy;
   color: navy;
+  font-size: 1.3em;
   font-weight: bold;
 }
 

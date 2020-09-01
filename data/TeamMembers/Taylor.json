@@ -1,10 +1,10 @@
 {
 	"name": "Taylor Santucci",
 	"position": "2D Artist - Contractor",
-	"picture": "/assets/profilePictures/placeholder.webp",
+	"picture": "/assets/profilePictures/Taylor.png",
 	"email": "tds4@illinois.edu",
 	"emailLink": "mailto:tds4@illinois.edu",
-	"quote": "",
+	"quote": "Work Hard. Be Proud.",
 	"games": [{
 		"title": "AkBal",
 		"link": "/pages/list/?focus=Games&target=AkBal"
@@ -14,7 +14,7 @@
 	],
 	"websites": [{
 			"title": "PROFILE",
-			"link": "/pages/list/?focus=TeamMembers&target=Taylor"
+			"link": "/pages/focus/?focus=TeamMembers&target=Taylor"
 		},
 		{
 			"title": "PORTFOLIO",

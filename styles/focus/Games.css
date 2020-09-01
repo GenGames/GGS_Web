@@ -1,0 +1,71 @@
+div.coverScreen div.aboveTheFoldDisplay{
+  width: 100%;
+  height: 92vh;
+  background-size: cover;
+}
+
+/* div.coverScreen div.aboveTheFoldDisplay img.coverImage{
+  width: 100%;
+  height: 100%
+} */
+
+div.coverScreen div.horizontalMediaList img{
+  width: 420px;
+  height: 210px;
+  margin: 5px
+}
+
+div.coverScreen div.gameContentContainer{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: #ddd;
+}
+
+div.purchaseOptions{
+  background-color: #bbb;
+  padding: 0px 20px
+}
+
+div.descriptionBox{
+  padding: 0px 20px
+}
+
+a.gamePurchaseLinkItem {
+  display: block;
+  margin: 15px;
+  text-align: center;
+}
+
+a.contributorLink{
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+}
+
+a.contributorLink h3{
+  margin-top: 13px;
+}
+
+div.horizontalMediaList{
+  padding: 30px 10px;
+  background-color: #222;
+  background-image: linear-gradient(to bottom,rgb(0,0,0),rgba(10,10,10,.9),rgba(0,0,0,.5),rgba(0,0,0,.5),rgb(0,0,0));
+  color: #ddd;
+}
+
+div.aboveTheFoldDisplay h2{
+  font-size: 5em;
+  text-align: center;
+  width: 100%;
+  color: white;
+  padding: 20px 0;
+  margin: 0;
+  margin-top: 0;
+  text-shadow: 1px 1px 10px black;
+}
+
+a.gameVideo{
+  margin: 20px;
+}

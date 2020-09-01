@@ -1,7 +1,7 @@
 # GGS_Web
 
 ## Adding jazz
-1. Duplicate the prefab JSON in the data folder of the ytpe you want to add (ex: article, Game, Team member)
+1. Duplicate the prefab JSON in the data folder of the type you want to add (ex: article, Game, Team member)
 2. name the file in Title Case (first letter of each word upper case) without spaces, make sure it has the file type ".json" (case matters)
 3. Fill in the information for the new item in the json you just created. If you don't know how to edit JSON and want to learn, read [JSON Rules by Omar Elgabry](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc), he does a good job at explaining the basics. Otherwise just chat with Mason.
 4. to ensure you do not break anything, validate your JSON, I'd recommend using [JSON Lint, a JSON validator site](https://jsonlint.com/)

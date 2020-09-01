@@ -1,8 +1,122 @@
 {
-  "list-layout":{
-
+  "listLayout":{
+    "tag": "a",
+    "classes": ["coverImageWrapper"],
+    "hrefKey":"pageLink",
+    "children":[
+      {
+        "tag":"img",
+        "srcKey":"coverImage",
+        "altKey":"coverTitle"
+      },
+      {
+        "tag":"h2",
+        "startContent":"coverTitle"
+      },
+      {
+        "tag":"h3",
+        "startContent":"coverSubtitle"
+      }
+    ]
   },
-  "page-layout":{
+  "pageLayout":{
+    "tag": "div",
+    "classes":["coverScreen"],
+    "children":[
+      {
+        "tag":"div",
+        "classes":["aboveTheFoldDisplay"],
+        "pulledProperties":[
+          {
+            "key":"style",
+            "value": "focusImageCode"
+          }
+        ],
+        "children":[
+          {
+            "tag":"h2",
+            "startContent": "coverTitle"
+          },
+          {
+            "tag":"h3",
+            "startContent": "coverSubtitle"
+          }
+        ]
+      },
 
+      {
+        "tag": "div",
+        "classes": ["horizontalMediaList"],
+        "forcedInsert":"<h2>Trailers & Videos</h2>",
+        "children":[
+          {
+            "tag": "a",
+            "listParent":"videos",
+            "startContent":"embed",
+            "classes":["gameVideo"]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": ["horizontalMediaList"],
+        "forcedInsert":"<h2>Screenshots</h2>",
+        "children":[
+          {
+            "tag": "img",
+            "listParent":"additionalImages",
+            "srcKey":"path",
+            "classes":["gameScreenshots"]
+          }
+        ]
+      },
+      {
+        "tag":"div",
+        "classes":["gameContentContainer"],
+        "children":[
+          {
+            "tag":"div",
+            "forcedInsert":"<h2>DESCRIPTION</h2>",
+            "classes":["descriptionBox"],
+            "children":[
+              {
+                "tag":"p",
+                "listParent": "summary",
+                "startContent":"paragraph"
+              }
+            ]
+          },
+          {
+            "tag":"div",
+            "classes":["purchaseOptions"],
+            "forcedInsert": "<h2>Download it Here:</h2>",
+            "children":[
+              {
+                "tag":"a",
+                "classes":["gamePurchaseLinkItem", "whiteButtonLink"],
+                "listParent": "platforms",
+                "startContent":"platformName",
+                "hrefKey":"gameLink"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": ["horizontalMediaList"],
+        "forcedInsert":"<h2>Contributors</h2>",
+        "children":[
+          {
+            "tag": "a",
+            "listParent":"contributors",
+            "hrefKey":"Profile",
+            "classes":["contributorLink", "whiteButtonLink"],
+            "startContent":"Name",
+            "endContent":"Position"
+          }
+        ]
+      }
+    ]
   }
 }

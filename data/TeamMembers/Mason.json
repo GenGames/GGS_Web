@@ -1,7 +1,7 @@
 {
   "name": "Mason Bates",
-  "position": "Project Lead, Software Develoepr",
-  "picture": "/assets/profilePictures/placeholder.webp",
+  "position": "Project Lead, Software Developer",
+  "picture": "/assets/profilePictures/Mason.PNG",
   "email": "Contact Mason via email",
   "emailLink": "mailto:152batesm@gmail.com",
   "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
@@ -40,7 +40,7 @@
     },
     {
       "title": "PROFILE",
-      "link": "/pages/list/?focus=TeamMembers&target=Mason"
+      "link": "/pages/focus/?focus=TeamMembers&target=Mason"
     }
   ],
   "bio": [

@@ -1,20 +1,39 @@
 {
-  "name": "Nick",
-  "position": "Developer & 3D Artist",
+  "name": "Nick Huber",
+  "position": "3D Artist, Software Developer",
   "picture": "/assets/profilePictures/placeholder.webp",
-  "bio": "",
+  "email": "Contact Nick via email",
+  "emailLink": "mailto:gen.games.studio@gmail.com",
+  "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
   "games": [
-    "CyberDefense",
-    "AkBal",
-    "StandardGameTemplate"
+    {
+      "title": "Cyber Defense",
+      "link": "/pages/focus/?focus=Games&target=CyberDefense"
+    },
+    {
+      "title": "A'k'Bal",
+      "link": "/pages/focus/?focus=Games&target=AkBal"
+    },
+    {
+      "title": "GGS Standard Template",
+      "link": "/pages/focus/?focus=Games&target=StandardGameTemplate"
+    }
   ],
   "articles":[
-    ""
+
   ],
   "websites":[
     {
       "title": "PROFILE",
-      "link": "/pages/list/?focus=TeamMembers&target=Nick"
+      "link": "/pages/focus/?focus=TeamMembers&target=Mason"
+    }
+  ],
+  "bio": [
+    {
+      "paragraph":"Bacon ipsum dolor amet rump t-bone tri-tip corned beef meatloaf. Pig t-bone tongue ground round tri-tip. Fatback frankfurter tail porchetta. Biltong landjaeger hamburger, pork pork loin kielbasa filet mignon doner flank spare ribs pork chop bresaola burgdoggen. Rump prosciutto pork loin brisket alcatra, bacon landjaeger ham hock tail salami shankle."
+    },
+    {
+      "paragraph":"Bacon alcatra landjaeger cupim, ham doner fatback spare ribs strip steak hamburger chuck. Rump fatback frankfurter sausage, pork belly tenderloin ham. Jerky pancetta swine tri-tip doner, sirloin sausage short ribs shankle corned beef kielbasa ball tip. Flank andouille beef ball tip ham hock sirloin. Ball tip pork chop corned beef, pancetta biltong picanha tongue sausage chuck ribeye pork buffalo bacon drumstick. Chislic buffalo turkey meatloaf filet mignon boudin brisket drumstick bacon kielbasa landjaeger salami biltong pork belly kevin. Turducken meatball beef picanha biltong, cupim ham doner tail kielbasa bresaola spare ribs."
     }
   ]
 }

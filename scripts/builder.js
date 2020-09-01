@@ -5,6 +5,7 @@ function buildElement(elementStructure, dataSource){
   var classes = elementStructure.classes || [];
   var id = elementStructure.id || "";
   var properties = elementStructure.properties || [];
+  var pulledProperties = elementStructure.pulledProperties || [];
   var children = elementStructure.children || [];
   var src = dataSource[elementStructure.srcKey] || "";
   var alt = dataSource[elementStructure.altKey] || "";
@@ -32,9 +33,14 @@ function buildElement(elementStructure, dataSource){
       propertiesHtml += properties[i].key +"='"+properties[i].value+"' ";
     }
 
+    var pulledPropertiesHtml = "";
+    for (var i = 0; i < pulledProperties.length; i++) {
+      pulledPropertiesHtml += pulledProperties[i].key +"='"+ dataSource[pulledProperties[i].value]+"' ";
+    }
+
     var idHtml = (id == "")? "": "id='" + id + "'";
 
-    html += "<" + tag +" " + imageHtml + anchorHTML + idHtml + classHtml + propertiesHtml +"> " + forcedInsert + startContent;
+    html += "<" + tag +" " + imageHtml + anchorHTML + idHtml + classHtml + propertiesHtml + pulledPropertiesHtml +"> " + forcedInsert + startContent;
 
     // add all embedded content
     for (var i = 0; i < children.length; i++) {
@@ -107,6 +113,9 @@ function determineLoadData(query){
   }
   else if (query["list"] != undefined && query["list"] != "undefined")
   {
+    var pageTitle = (query["list"] == "TeamMembers")? "Team Members": query["list"];
+    document.getElementById("target").innerHTML += "<h1 class='pageTitle'>" + pageTitle + "</h1>";
+
     loadFileAsString("/data/index.json",(indexData)=>{
       var fileNames = JSON.parse(indexData)[query["list"]];
       LoadListData(query["list"],fileNames,"listLayout");

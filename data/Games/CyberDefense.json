@@ -1,60 +1,105 @@
 {
   "title": "Cyber Defense",
   "description": "Claim the cyber city of New Theus through tactical prowess and commanding wit.",
-  "coverTitle": "Cyber Defense",
+  "coverTitle": "CYBER DEFENSE",
   "coverSubtitle": "",
+  "pageLink": "/pages/focus/?focus=Games&target=CyberDefense",
   "coverImage": "/assets/games/CyberDefense/CyberDefense_Cover.png",
+  "focusImageCode":"background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url(/assets/Games/CyberDefense/CyberDefense_Cover.png)",
   "gameIcon": "/assets/games/CyberDefense/CyberDefense-jpeg.jpg",
   "releaseDate": "08/14/2020",
-  "summary": "In Cyber Defense you play as one of Three Factions in order to take control of the independent City of New Theus, by taking the administrative tower called The Anvil, currently owned by the ruling government of the same name. To fight for the tower in an open battlefield within the inner city, each faction has a brief narrative campaign where you get a chance to experience each of the units and strategies of that faction.",
+  "summary": [
+    {
+      "paragraph": "In Cyber Defense you play as one of Three Factions in order to take control of the independent City of New Theus, by taking the administrative tower called The Anvil, currently owned by the ruling government of the same name. To fight for the tower in an open battlefield within the inner city, each faction has a brief narrative campaign where you get a chance to experience each of the units and strategies of that faction."
+    },
+    {
+      "paragraph":"<h3>FACTIONS</h3>"
+    },
+    {
+      "paragraph":"<h4>RazorCorp</h4>"
+    },
+    {
+      "paragraph":"The Kingpin of the market, RazorCorp provides all the needs of your everyday government at a fraction of the cost. Side effects may include data-tracking, targeted advertising, and periodic mind wipes."
+    },
+    {
+      "paragraph":"<h4>Spire's Chosen</h4>"
+    },
+    {
+      "paragraph":"Too long have we crippled ourselves with technology, we have left ourselves vulnerable and weak. This is our final chance to revert back to the old ways and regain our humanity, we will not see it wasted."
+    },
+    {
+      "paragraph":"<h4>Ascendant </h4>"
+    },
+    {
+      "paragraph":"The human mind has outgrown its form, we are surrounded with technology bringing us above what we once were, and we will achieve our ascendance by adapting that same technology to our natural framework."
+    },
+    {
+      "paragraph":"<h4>The Anvil (Not Playable)</h4>"
+    },
+    {
+      "paragraph":"The last legs of the Old World, The Anvil government has been in decay and decline for the past generation. With little following and chaos reaching into the underbelly of the city, the remaining officials hide behind the power of their Administrative Tower, only a proxy of their former selves."
+    }
+  ],
   "videos": [
     {
-      "title": "Trailer",
+      "title": "<h2>Trailer</h2>",
       "link": "https://youtu.be/y93RqL_JLWI",
       "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/y93RqL_JLWI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     }
   ],
   "contributors":[
     {
-      "Name":"Mason Bates",
-      "Position": "Project Lead, Software Developer",
+      "Name":"<h3>Mason Bates</h3>",
+      "Position": "<h4>Project Lead, Software Developer</h4>",
       "Profile": "/pages/list/?focus=TeamMembers&target=Mason"
     },
     {
-      "Name":"Nick Huber",
-      "Position": "3D Artist, Software Developer",
+      "Name":"<h3>Nick Huber</h3>",
+      "Position": "<h4>3D Artist, Software Developer</h4>",
       "Profile": "/pages/list/?focus=TeamMembers&target=Nick"
     },
     {
-      "Name":"Will Andrews",
-      "Position": "Sound Designer",
+      "Name":"<h3>Will Andrews</h3>",
+      "Position": "<h4>Sound Designer</h4>",
       "Profile": "/pages/list/?focus=TeamMembers&target=Will"
     },
     {
-      "Name":"Joe Gawlik",
-      "Position": "Lead Artist",
+      "Name":"<h3>Joe Gawlik</h3>",
+      "Position": "<h4>Lead Artist</h4>",
       "Profile": "/pages/list/?focus=TeamMembers&target=Joe"
     },
     {
-      "Name":"Scott Shin",
-      "Position": "2D Digital Artist",
+      "Name":"<h3>Scott Shin</h3>",
+      "Position": "<h4>2D Digital Artist</h4>",
       "Profile": "/pages/list/?focus=TeamMembers&target=Scott"
     },
     {
-      "Name":"Jimmy Parello",
-      "Position": "3D Artist",
+      "Name":"<h3>Jimmy Parello</h3>",
+      "Position": "<h4>3D Artist</h4>",
       "Profile": "/pages/list/?focus=TeamMembers&target=Jimmy"
     }
   ],
   "additionalImages": [
     {
-      "path":""
+      "path":"/assets/games/CyberDefense/CyberDefense_Cover.png"
+    },{
+      "path":"/assets/games/CyberDefense/CyberDefense_Narrative.png"
+    },{
+      "path":"/assets/games/CyberDefense/CyberDefense_CampaignView.png"
+    },{
+      "path":"/assets/games/CyberDefense/CyberDefense_Combat.png"
+    },{
+      "path":"/assets/games/CyberDefense/CyberDefense_UnitSelection.png"
     }
   ],
   "platforms": [
     {
-      "platformName": "",
-      "gameLink": ""
+      "platformName": "itch.io",
+      "gameLink": "https://gg-studio.itch.io/cyber-defense"
+    },
+    {
+      "platformName": "Free Download",
+      "gameLink":"/assets/games/CyberDefense/CyberDefense_Zip.zip"
     }
   ]
 }
