@@ -1,7 +1,7 @@
 article.teamMember-card{
   box-shadow: 1px .5px 3px #222;
   margin: 13px;
-  padding: 10px;
+  padding: 20px;
   display: inline-grid;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 150px 150px;

@@ -12,7 +12,7 @@ div.coverScreen div.aboveTheFoldDisplay{
 div.coverScreen div.horizontalMediaList img{
   width: 420px;
   height: 210px;
-  margin: 5px
+  margin: 5px;
 }
 
 div.coverScreen div.gameContentContainer{
@@ -53,6 +53,7 @@ div.horizontalMediaList{
   background-color: #222;
   background-image: linear-gradient(to bottom,rgb(0,0,0),rgba(10,10,10,.9),rgba(0,0,0,.5),rgba(0,0,0,.5),rgb(0,0,0));
   color: #ddd;
+  text-align: center;
 }
 
 div.aboveTheFoldDisplay h2{

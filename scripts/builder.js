@@ -121,6 +121,10 @@ function determineLoadData(query){
       LoadListData(query["list"],fileNames,"listLayout");
     })
   }
+
+  var displayType = (query["focus"] != undefined && query["focus"] != "undefined")? query["focus"] : query["list"];
+  var focus = query["target"];
+  generatePageMeta(displayType,focus);
 }
 
 function LoadListData(folderLocation,dataFilesArray,layoutType){
@@ -135,4 +139,16 @@ function LoadFocusData(folderLocation,dataFile,layoutType){
   var templateUrl = "/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
   var dataFileUrl = "/data/" + folderLocation + "/" + dataFile + ".json";
   LoadAndDisplayFile(templateUrl,dataFileUrl,layoutType);
+}
+
+function generatePageMeta(displayType, focus){
+  var pageTitleMeta = "";
+
+  if (focus != undefined) {
+    pageTitleMeta += focus + " | ";
+  }
+
+  pageTitleMeta += displayType + " | GG Studio";
+
+  document.title = pageTitleMeta;
 }

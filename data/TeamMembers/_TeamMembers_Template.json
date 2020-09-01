@@ -112,7 +112,6 @@
           {
             "tag": "div",
             "classes":["articlesWritten"],
-            "forcedInsert":"<h3 class='articlesTitle' style='display:inline-block;'>GGS Articles: </h3>",
             "children":[
               {
                 "tag":"a",

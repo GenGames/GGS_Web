@@ -31,6 +31,7 @@ header{
   top: 0;
   background-image: linear-gradient(to bottom,rgb(20,20,20),rgb(10,10,10),rgb(15,15,15));
   padding: 5px;
+  border-bottom: 2px solid #555
 }
 
 a.whiteButtonLink{
@@ -74,6 +75,7 @@ header li a:hover{
 }
 
 main{
+  padding-top: 30px;
   background-image: linear-gradient(to bottom,rgb(15,15,15),rgb(150,150,150));
 }
 
