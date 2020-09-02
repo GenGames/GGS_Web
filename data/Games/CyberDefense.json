@@ -4,9 +4,9 @@
   "coverTitle": "CYBER DEFENSE",
   "coverSubtitle": "",
   "pageLink": "/GGS_Web/pages/focus/?focus=Games&target=CyberDefense",
-  "coverImage": "/assets/games/CyberDefense/CyberDefense_Cover.png",
-  "focusImageCode":"background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(38, 36, 34)),url(/assets/Games/CyberDefense/CyberDefense_Cover.png)",
-  "gameIcon": "/assets/games/CyberDefense/CyberDefense-jpeg.jpg",
+  "coverImage": "/GGS_Web/assets/games/CyberDefense/CyberDefense_Cover.png",
+  "focusImageCode":"background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(38, 36, 34)),url(/GGS_Web/assets/Games/CyberDefense/CyberDefense_Cover.png)",
+  "gameIcon": "/GGS_Web/assets/games/CyberDefense/CyberDefense-jpeg.jpg",
   "releaseDate": "08/14/2020",
   "summary": [
     {
@@ -81,15 +81,15 @@
   ],
   "additionalImages": [
     {
-      "path":"/assets/games/CyberDefense/CyberDefense_Cover.png"
+      "path":"/GGS_Web/assets/games/CyberDefense/CyberDefense_Cover.png"
     },{
-      "path":"/assets/games/CyberDefense/CyberDefense_Narrative.png"
+      "path":"/GGS_Web/assets/games/CyberDefense/CyberDefense_Narrative.png"
     },{
-      "path":"/assets/games/CyberDefense/CyberDefense_CampaignView.png"
+      "path":"/GGS_Web/assets/games/CyberDefense/CyberDefense_CampaignView.png"
     },{
-      "path":"/assets/games/CyberDefense/CyberDefense_Combat.png"
+      "path":"/GGS_Web/assets/games/CyberDefense/CyberDefense_Combat.png"
     },{
-      "path":"/assets/games/CyberDefense/CyberDefense_UnitSelection.png"
+      "path":"/GGS_Web/assets/games/CyberDefense/CyberDefense_UnitSelection.png"
     }
   ],
   "platforms": [
@@ -99,7 +99,7 @@
     },
     {
       "platformName": "Free Download",
-      "gameLink":"/assets/games/CyberDefense/CyberDefense_Zip.zip"
+      "gameLink":"/GGS_Web/assets/games/CyberDefense/CyberDefense_Zip.zip"
     }
   ]
 }
