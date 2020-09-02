@@ -1,6 +1,5 @@
 div.profileContainer{
   padding: 10px;
-  box-shadow: 1px 1px 2px #333;
   display: grid;
   grid-template-columns: "2fr 1fr 2fr";
   grid-template-rows: "1fr 1fr";
@@ -18,8 +17,7 @@ div.profileContainer div.profileHeader{
   grid-area: profileHeader;
   padding: 30px;
   text-align: center;
-  background-color: #ffffff15;
-  color: #ddd;
+  color: #262422;
 }
 
 div.profileContainer div.profileHeader h1{
@@ -34,15 +32,15 @@ div.profileContainer div.profileHeader h2{
 div.profileContainer div.profileHeader div.gamesMade a{
   padding: 10px;
   margin:10px 5px;
-  color: navy;
+  color: #E4483B;
   background-color: #eee;
-  border: 3px solid navy;
+  border: 3px solid #E4483B;
   display: inline-block;
 }
 
 div.profileContainer div.profileHeader div.gamesMade a:hover{
   color: #eee;
-  background-color: navy;
+  background-color: #E4483B;
   transition: .2s
 }
 
@@ -50,23 +48,25 @@ div.profileContainer div.profileHeader div.articlesWritten a{
   padding: 10px;
   margin:10px 5px;
   color: #eee;
-  background-color: navy;
+  background-color: #E4483B;
   border: 3px solid #eee;
   display: inline-block;
 }
 
 div.profileContainer div.profileHeader div.articlesWritten a:hover{
-  color: navy;
+  color: #E4483B;
   background-color: #eee;
   transition: .2s
 }
 
 div.profileContainer div.bioWrapper{
   grid-area: bio;
-  padding: 10px;
+  padding: 20px;
   font-size: 1.1em;
   border-radius: 5px 0 0 5px;
-  background-color: #ccc;
+  background-color: #262422;
+  color: #ddd;
+  margin-top: 10px;
 }
 
 div.profileContainer div.QuoteAndLinks{
@@ -74,6 +74,7 @@ div.profileContainer div.QuoteAndLinks{
   padding: 25px;
   background-color: #666;
   border-radius: 0 5px 5px 0;
+  margin-top:10px;
 }
 
 div.profileContainer div.QuoteAndLinks blockquote{
@@ -94,14 +95,14 @@ div.profileContainer div.QuoteAndLinks a {
   text-align: center;
   padding: 10px 0;
   background-color: #eee;
-  border: 3px solid navy;
-  color: navy;
+  border: 3px solid #E4483B;
+  color: #E4483B;
   font-size: 1.3em;
   font-weight: bold;
 }
 
 div.profileContainer div.QuoteAndLinks a:hover{
-  background-color: navy;
+  background-color: #E4483B;
   color: #eee;
   transition: .2s
 }

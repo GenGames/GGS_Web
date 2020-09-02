@@ -1,0 +1,103 @@
+/*
+******** COLOR PALETTE *********
+dull Blue     #509AB3  | rgb(90,154,179)
+aqua          #12E0A4  | rgb(0,200,140)
+bright blue   #00A9E2  | rgb(0,169,226)
+BloodOrange   #E4483B  | rgb(228,72,59)
+Red           #ff121D  | rgb(186,0,45)
+
+generic dark  #262422  | rgb(38, 36, 34)
+semilight greybrown #bfbcbb  |  rgb(191, 188, 187)
+light greybrown #dfdcdb  |
+*/
+
+h1.homepageTitle{
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  font-size: 6em;
+  font-family: Helvetica;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.35), 0 3px 5px rgba(0,0,0,.25), 0 5px 10px rgba(0,0,0,.3), 0 10px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.2);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 10px 20px;
+}
+
+a.seeTheGames{
+  background-image: linear-gradient(to left,rgb(255,255,255,0),rgb(0,169,226));
+  filter: brightness(60%);
+  height: 100vh;
+  width: 40vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+a.seeTheGames:hover{
+  filter: brightness(100%);
+  width: 65vw;
+  transition: 1s;
+}
+
+a.meetTheTeam{
+  background-image: linear-gradient(to left,rgb(228,72,59),rgb(255,255,255,0));
+  filter: brightness(75%);
+  height: 100vh;
+  width: 40vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+a.meetTheTeam:hover{
+  filter: brightness(110%);
+  width: 65vw;
+  transition: 1s;
+}
+
+body{
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: -4px;
+  background-color: #fff;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2 {
+  position: relative;
+  top: 40%;
+  padding: 20px;
+  font-size: 2.5em;
+  color: #262422;
+  text-shadow: 0 0 2px #262422;
+}
+
+a.meetTheTeam h2{
+  right: 20%;
+}
+
+a.seeTheGames h2{
+  left: 20%;
+}
+
+a.meetTheTeam:hover h2{
+  transition: .75s;
+  right: 15%;
+  text-shadow: 0 0 8px #dfdcdb;
+  color: #dfdcdb;
+  font-size: 3em;
+}
+
+a.seeTheGames:hover h2{
+  transition: .75s;
+  left: 15%;
+  text-shadow: 0 0 8px #dfdcdb;
+  color: #dfdcdb;
+  font-size: 3em;
+}

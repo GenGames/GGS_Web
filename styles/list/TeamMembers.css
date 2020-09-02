@@ -9,13 +9,14 @@ article.teamMember-card{
   "img profileHeader"
   "profileExtraContent profileExtraContent";
   border-radius: 5px;
-  background-color: #ffffff25;
-  border: 1.5px solid #888;
+  background-color: #00000050;
+  border: 2px solid #ff121D;
   width: 500px;
+  color: #fffcfb;
 }
 
 article.teamMember-card:hover{
-  background-color: #ffffff35;
+  background-color: #00000025;
   box-shadow: 1px .5px 7px #444;
   transition: .5s;
 }
@@ -47,9 +48,9 @@ article.teamMember-card div.profileExtraContent blockquote{
 
 a.portfolioLinks{
   display: inline-block;
-  color: navy;
+  color: #E4483B;
   margin: 0px 12px;
-  border: 3px solid navy;
+  border: 3px solid #E4483B;
   background-color: #fff;
   padding: 8px;
   border-radius: 2px;
@@ -60,12 +61,12 @@ a.portfolioLinks{
 
 a.portfolioLinks:hover{
   color: #fff;
-  background-color: navy;
+  background-color: #E4483B;
   transition: .25s;
 }
 
 div.profileHeader a{
-  color: rgb(0,0,180);
+  color: #E4483B;
   font-weight: bolder;
 }
 

@@ -14,25 +14,25 @@ a.coverImageWrapper img{
 
 a.coverImageWrapper h2{
   text-align: center;
-  color: #ddd;
+  color: #ff121D;
   position: relative;
   top: -150px;
   font-size: 3em;
-  text-shadow: 0px 0px 20px #ddd;
+  text-shadow: 0px 0px 20px #E4483B;
   margin: 0;
   padding: 0;
   height: 0;
 }
 
 a.coverImageWrapper:hover h2{
-  color: #fff;
-  text-shadow: 0px 0px 35px #fff;
+  color: #ff121D;
+  text-shadow: 0px 0px 35px #E4483B;
   transition: .25s;
 }
 
 a.coverImageWrapper:hover img{
-  filter: brightness(150%);
+  filter: brightness(130%);
   transition: 1s;
   border-radius: 3px;
-  box-shadow: 1px 1px 12px #888;
+  box-shadow: 1px 1px 12px #000;
 }

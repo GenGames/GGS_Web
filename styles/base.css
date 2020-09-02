@@ -1,5 +1,5 @@
 body {
-  background-color: #666;
+  background-color: #509AB3;
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
@@ -13,12 +13,22 @@ body {
    transition: .2s;
  }
 
-h1.webTitle{
+h1#webTitle{
   padding: 0;
-  text-shadow: 0px 0px 3px skyblue;
   width: fit-content;
   margin: 10px;
   display: inline-block;
+
+}
+
+h1#webTitle a{
+  text-shadow: 0px 0px 3px skyblue;
+  color: white ;
+}
+
+h1#webTitle a:hover{
+  text-shadow: 0px 0px 8px skyblue;
+  color: white ;
 }
 
 h1,h2,{
@@ -29,14 +39,14 @@ header{
   position: static;
   color: white;
   top: 0;
-  background-image: linear-gradient(to bottom,rgb(20,20,20),rgb(10,10,10),rgb(15,15,15));
+  background-image: linear-gradient(to bottom,rgb(38, 36, 34),rgb(58, 56, 54),rgb(38, 36, 34) );
   padding: 5px;
   border-bottom: 2px solid #555
 }
 
 a.whiteButtonLink{
-  color: navy;
-  border: 3px solid navy;
+  color: #E4483B;
+  border: 3px solid #E4483B;
   background-color: #fff;
   padding: 8px;
   border-radius: 2px;
@@ -47,7 +57,7 @@ a.whiteButtonLink{
 
 a.whiteButtonLink:hover{
   color: #fff;
-  background-color: navy;
+  background-color: #E4483B;
   transition: .25s;
   box-shadow: 1px 1px 8px black;
 }
@@ -76,11 +86,11 @@ header li a:hover{
 
 main{
   padding-top: 30px;
-  background-image: linear-gradient(to bottom,rgb(15,15,15),rgb(150,150,150));
+  background-image: linear-gradient(to bottom,rgb(18,224,164),rgb(90,154,179));
 }
 
 footer{
-  background-color: #ddd;
+  background-color: #bfbcbb;
   height: 120px
 }
 
@@ -106,8 +116,8 @@ div.listContainer{
 }
 
 h1.pageTitle{
-  color: #eee;
-  text-shadow: 0px 0px 3px #ddd;
+  color: #ff121D;
+  text-shadow: 0px 0px 3px #E4483B;
   margin-top: 0;
 }
 
