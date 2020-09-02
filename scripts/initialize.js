@@ -3,7 +3,7 @@ var isList = pageURL.includes("list");
 var indexData;
 
 function awake(){
-  loadFileAsString("/data/index.json",(data)=>{
+  loadFileAsString("/GGS_Web/data/index.json",(data)=>{
     indexData = JSON.parse(data);
     start();
   })
@@ -19,18 +19,18 @@ function start(){
 
   // Head
   var headElement = document.getElementsByTagName("head");
-  loadFileAsString("/data/htmlPrefabs/head.html",(headTxt)=>{
+  loadFileAsString("/GGS_Web/data/htmlPrefabs/head.html",(headTxt)=>{
     headElement[0].innerHTML += headTxt;
   });
   // Header
   var headerElement = document.getElementsByTagName("header");
-  loadFileAsString("/data/htmlPrefabs/header.html",(headerTxt)=>{
+  loadFileAsString("/GGS_Web/data/htmlPrefabs/header.html",(headerTxt)=>{
     headerElement[0].innerHTML += headerTxt;
   });
 
   // Footer
   var footerElement = document.getElementsByTagName("footer");
-  loadFileAsString("/data/htmlPrefabs/footer.html",(footerTxt)=>{
+  loadFileAsString("/GGS_Web/data/htmlPrefabs/footer.html",(footerTxt)=>{
     footerElement[0].innerHTML += footerTxt;
   });
 

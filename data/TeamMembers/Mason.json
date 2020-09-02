@@ -1,26 +1,26 @@
 {
   "name": "Mason Bates",
   "position": "Project Lead, Software Developer",
-  "picture": "/assets/profilePictures/Mason.PNG",
+  "picture": "/GGS_Web/assets/profilePictures/Mason.PNG",
   "email": "Contact Mason via email",
   "emailLink": "mailto:152batesm@gmail.com",
   "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
   "games": [
     {
       "title": "Cyber Defense",
-      "link": "/pages/focus/?focus=Games&target=CyberDefense"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=CyberDefense"
     },
     {
       "title": "A'k'Bal",
-      "link": "/pages/focus/?focus=Games&target=AkBal"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=AkBal"
     },
     {
       "title": "GGS Standard Template",
-      "link": "/pages/focus/?focus=Games&target=StandardGameTemplate"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=StandardGameTemplate"
     }
   ],
   "articles":[
-    
+
   ],
   "websites":[
     {
@@ -37,7 +37,7 @@
     },
     {
       "title": "PROFILE",
-      "link": "/pages/focus/?focus=TeamMembers&target=Mason"
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Mason"
     }
   ],
   "bio": [

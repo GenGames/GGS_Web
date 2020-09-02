@@ -1,14 +1,14 @@
 {
   "name": "Scott Shin",
   "position": "2D Artist",
-  "picture": "/assets/profilePictures/placeholder.webp",
+  "picture": "/GGS_Web/assets/profilePictures/placeholder.webp",
   "email": "Contact Scott via email",
   "emailLink": "mailto:gen.games.studio@gmail.com",
   "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
   "games": [
     {
       "title": "Cyber Defense",
-      "link": "/pages/focus/?focus=Games&target=CyberDefense"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=CyberDefense"
     }
   ],
   "articles":[
@@ -17,7 +17,7 @@
   "websites":[
     {
       "title": "PROFILE",
-      "link": "/pages/focus/?focus=TeamMembers&target=Scott"
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Scott"
     }
   ],
   "bio": [

@@ -1,18 +1,18 @@
 {
   "name": "_______",
   "position": "________",
-  "picture": "/assets/profilePictures/________",
+  "picture": "/GGS_Web/assets/profilePictures/________",
   "email": "Contact _______ via email",
   "emailLink": "mailto:______",
   "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
   "games": [
     {
       "title": "Cyber Defense",
-      "link": "/pages/focus/?focus=Games&target=CyberDefense"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=CyberDefense"
     },
     {
       "title": "A'k'Bal",
-      "link": "/pages/focus/?focus=Games&target=AkBal"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=AkBal"
     }
   ],
   "articles":[
@@ -21,7 +21,7 @@
   "websites":[
     {
       "title": "PROFILE",
-      "link": "/pages/focus/?focus=TeamMembers&target=_______"
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=_______"
     }
   ],
   "bio": [

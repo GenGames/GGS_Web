@@ -3,7 +3,7 @@
   "description": "Claim the cyber city of New Theus through tactical prowess and commanding wit.",
   "coverTitle": "CYBER DEFENSE",
   "coverSubtitle": "",
-  "pageLink": "/pages/focus/?focus=Games&target=CyberDefense",
+  "pageLink": "/GGS_Web/pages/focus/?focus=Games&target=CyberDefense",
   "coverImage": "/assets/games/CyberDefense/CyberDefense_Cover.png",
   "focusImageCode":"background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(38, 36, 34)),url(/assets/Games/CyberDefense/CyberDefense_Cover.png)",
   "gameIcon": "/assets/games/CyberDefense/CyberDefense-jpeg.jpg",
@@ -51,32 +51,32 @@
     {
       "Name":"<h3>Mason Bates</h3>",
       "Position": "<h4>Project Lead, Software Developer</h4>",
-      "Profile": "/pages/list/?focus=TeamMembers&target=Mason"
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Mason"
     },
     {
       "Name":"<h3>Nick Huber</h3>",
       "Position": "<h4>3D Artist, Software Developer</h4>",
-      "Profile": "/pages/list/?focus=TeamMembers&target=Nick"
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Nick"
     },
     {
       "Name":"<h3>Will Andrews</h3>",
       "Position": "<h4>Sound Designer</h4>",
-      "Profile": "/pages/list/?focus=TeamMembers&target=Will"
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Will"
     },
     {
       "Name":"<h3>Joe Gawlik</h3>",
       "Position": "<h4>Lead Artist</h4>",
-      "Profile": "/pages/list/?focus=TeamMembers&target=Joe"
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Joe"
     },
     {
       "Name":"<h3>Scott Shin</h3>",
       "Position": "<h4>2D Digital Artist</h4>",
-      "Profile": "/pages/list/?focus=TeamMembers&target=Scott"
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Scott"
     },
     {
       "Name":"<h3>Jimmy Parello</h3>",
       "Position": "<h4>3D Artist</h4>",
-      "Profile": "/pages/list/?focus=TeamMembers&target=Jimmy"
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Jimmy"
     }
   ],
   "additionalImages": [

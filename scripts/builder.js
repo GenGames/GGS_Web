@@ -116,7 +116,7 @@ function determineLoadData(query){
     var pageTitle = (query["list"] == "TeamMembers")? "Team Members": query["list"];
     document.getElementById("target").innerHTML += "<h1 class='pageTitle'>" + pageTitle + "</h1>";
 
-    loadFileAsString("/data/index.json",(indexData)=>{
+    loadFileAsString("/GGS_Web/data/index.json",(indexData)=>{
       var fileNames = JSON.parse(indexData)[query["list"]];
       LoadListData(query["list"],fileNames,"listLayout");
     })
@@ -129,15 +129,15 @@ function determineLoadData(query){
 
 function LoadListData(folderLocation,dataFilesArray,layoutType){
   for (var i = 0; i < dataFilesArray.length; i++) {
-    var templateUrl = "/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
-    var dataFileUrl = "/data/" + folderLocation + "/" + dataFilesArray[i] + ".json";
+    var templateUrl = "/GGS_Web/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
+    var dataFileUrl = "/GGS_Web/data/" + folderLocation + "/" + dataFilesArray[i] + ".json";
     LoadAndDisplayFile(templateUrl,dataFileUrl,layoutType);
   }
 }
 
 function LoadFocusData(folderLocation,dataFile,layoutType){
-  var templateUrl = "/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
-  var dataFileUrl = "/data/" + folderLocation + "/" + dataFile + ".json";
+  var templateUrl = "/GGS_Web/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
+  var dataFileUrl = "/GGS_Web/data/" + folderLocation + "/" + dataFile + ".json";
   LoadAndDisplayFile(templateUrl,dataFileUrl,layoutType);
 }
 

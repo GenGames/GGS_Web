@@ -1,18 +1,18 @@
 {
   "name": "Jimmy Parello",
   "position": "3D Artist",
-  "picture": "/assets/profilePictures/placeholder.webp",
+  "picture": "/GGS_Web/assets/profilePictures/placeholder.webp",
   "email": "Contact Jimmy via email",
   "emailLink": "mailto:gen.games.studio@gmail.com",
   "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
   "games": [
     {
       "title": "Cyber Defense",
-      "link": "/pages/focus/?focus=Games&target=CyberDefense"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=CyberDefense"
     },
     {
       "title": "A'k'Bal",
-      "link": "/pages/focus/?focus=Games&target=AkBal"
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=AkBal"
     }
   ],
   "articles":[
@@ -21,7 +21,7 @@
   "websites":[
     {
       "title": "PROFILE",
-      "link": "/pages/focus/?focus=TeamMembers&target=Jimmy"
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Jimmy"
     }
   ],
   "bio": [
