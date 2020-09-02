@@ -129,14 +129,14 @@ function determineLoadData(query){
 
 function LoadListData(folderLocation,dataFilesArray,layoutType){
   for (var i = 0; i < dataFilesArray.length; i++) {
-    var templateUrl = "/GGS_Web/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
+    var templateUrl = "/GGS_Web/data/" + folderLocation + "/" + folderLocation + "_Template.json";
     var dataFileUrl = "/GGS_Web/data/" + folderLocation + "/" + dataFilesArray[i] + ".json";
     LoadAndDisplayFile(templateUrl,dataFileUrl,layoutType);
   }
 }
 
 function LoadFocusData(folderLocation,dataFile,layoutType){
-  var templateUrl = "/GGS_Web/data/" + folderLocation + "/_" + folderLocation + "_Template.json";
+  var templateUrl = "/GGS_Web/data/" + folderLocation + "/" + folderLocation + "_Template.json";
   var dataFileUrl = "/GGS_Web/data/" + folderLocation + "/" + dataFile + ".json";
   LoadAndDisplayFile(templateUrl,dataFileUrl,layoutType);
 }
