@@ -3,7 +3,7 @@
   "description": "Our Submission for the 2020 Rewind Brackeys Jam",
   "coverTitle": "A'KB'AL",
   "pageLink": "/GGS_Web/pages/focus/?focus=Games&target=AkBal",
-  "focusImageCode":"background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(38, 36, 34)),url(/GGS_Web/assets/Games/AkBal/AkBal_Start.jpg);",
+  "focusImageCode":"background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(38, 36, 34)),url(/GGS_Web/assets/games/AkBal/Akbal_Start.jpg);",
   "coverSubtitle": "",
   "coverImage": "/GGS_Web/assets/games/AkBal/Akbal_2D.jpg",
   "releaseDate": "08/07/2020",
