@@ -1,10 +1,10 @@
 {
   "name": "Mason Bates",
   "position": "Project Lead, Software Developer",
-  "picture": "/GGS_Web/assets/profilePictures/Mason.PNG",
+  "picture": "/GGS_Web/assets/profilePictures/Mason.jpg",
   "email": "Contact Mason via email",
   "emailLink": "mailto:152batesm@gmail.com",
-  "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
+  "quote": "Games are a chance to learn and grow just as much as they are a chance to blow off steam and shoot aliens",
   "games": [
     {
       "title": "Cyber Defense",
@@ -42,10 +42,13 @@
   ],
   "bio": [
     {
-      "paragraph":"Bacon ipsum dolor amet rump t-bone tri-tip corned beef meatloaf. Pig t-bone tongue ground round tri-tip. Fatback frankfurter tail porchetta. Biltong landjaeger hamburger, pork pork loin kielbasa filet mignon doner flank spare ribs pork chop bresaola burgdoggen. Rump prosciutto pork loin brisket alcatra, bacon landjaeger ham hock tail salami shankle."
+      "paragraph":"A graduate from Illinois State University with a narrative writing degree. Mason started his career in game development as an aspiring narrative designer. During his time in college though, he joined an advanced projects division of IT as a technical writer, where he learned the basic in and outs of code early in his career. He quickly picked up a knack for coding, becoming a front-web developer by his first year, and by the end of his second year, he was a lead student back-end developer for their serverside operations. His real passion though lied in game development still though, and mason worked on multiple individual game projects before founding Gen Games, his senior year in college."
     },
     {
-      "paragraph":"Bacon alcatra landjaeger cupim, ham doner fatback spare ribs strip steak hamburger chuck. Rump fatback frankfurter sausage, pork belly tenderloin ham. Jerky pancetta swine tri-tip doner, sirloin sausage short ribs shankle corned beef kielbasa ball tip. Flank andouille beef ball tip ham hock sirloin. Ball tip pork chop corned beef, pancetta biltong picanha tongue sausage chuck ribeye pork buffalo bacon drumstick. Chislic buffalo turkey meatloaf filet mignon boudin brisket drumstick bacon kielbasa landjaeger salami biltong pork belly kevin. Turducken meatball beef picanha biltong, cupim ham doner tail kielbasa bresaola spare ribs."
+      "paragraph":"Gen Games, a video game development RSO with Illinois State University, was geared towards giving undergraduates the chance to develop games and gain the platform to both learn and practice everything from game code and systems to narrative design. In February of 2020, Gen Games released their first Game, The Tenebris Voyager, to itch.io as well as hosted a game jam at the local games expo for student developers. After the success, and graduating, Mason began working with a number of Gen Games students to produce a separate private studio where they could continue their development work even after school."
+    },
+    {
+      "paragraph":"Mason is now attending graduate school where he studies Procedural Generation, AI systems, and Games & Society as he continues his work with the newly dubbed GG Studio and his work as a back end web developer."
     }
   ]
 }
