@@ -45,12 +45,12 @@ function buildElement(elementStructure, dataSource){
     // add all embedded content
     for (var i = 0; i < children.length; i++) {
       html += buildElement(children[i], dataSource);
+      if (classHtml.includes("teamMember-card") ) {
+        console.log(html);
+      }
     }
 
     html += endContent + "</" + tag + ">";
-    if (classHtml.includes("teamMember-card") ) {
-      console.log(html);
-    }
   }
   else
   {
