@@ -13,12 +13,9 @@
 	"articles": [
 
 	],
-	"websites": [{
-			"title": "PROFILE",
-			"link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Taylor"
-		},
+	"websites": [
 		{
-			"title": "PORTFOLIO",
+			"title": "Portfolio",
 			"link": "https://tucci1999.wixsite.com/thezombae-portfolio"
 		}
 	],
