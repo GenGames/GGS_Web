@@ -1,7 +1,6 @@
 {
   "listLayout":{
-      "tag": "a",
-      "hrefKey": "profilePage",
+      "tag": "article",
       "classes" :["teamMember-card"],
       "children" :[
         {
