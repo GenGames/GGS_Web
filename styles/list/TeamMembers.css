@@ -1,4 +1,4 @@
-article.teamMember-card{
+a.teamMember-card{
   box-shadow: 1px .5px 3px #222;
   margin: 13px;
   padding: 20px;
@@ -15,32 +15,32 @@ article.teamMember-card{
   color: #fffcfb;
 }
 
-article.teamMember-card:hover{
+a.teamMember-card:hover{
   background-color: #00000025;
   box-shadow: 1px .5px 7px #444;
   transition: .5s;
 }
 
-article.teamMember-card img.profileImage{
+a.teamMember-card img.profileImage{
   grid-area: img;
   border-radius: 50%;
 }
 
-article.teamMember-card div.profileHeader{
+a.teamMember-card div.profileHeader{
   grid-area: profileHeader;
   padding: 25px;
 }
 
-article.teamMember-card div.profileExtraContent{
+a.teamMember-card div.profileExtraContent{
   grid-area: profileExtraContent;
   padding: 10px;
 }
 
-article.teamMember-card div.profileHeader h2{
+a.teamMember-card div.profileHeader h2{
   margin: 0px 0px 10px 0px;
 }
 
-article.teamMember-card div.profileExtraContent blockquote{
+a.teamMember-card div.profileExtraContent blockquote{
   font-style: italic;
   font-size: 16pt;
   margin-bottom: 20px;

@@ -1,6 +1,7 @@
 {
   "name": "Mason Bates",
   "position": "Project Lead, Software Developer",
+  "profilePage": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Mason",
   "picture": "/GGS_Web/assets/profilePictures/Mason.jpg",
   "email": "Contact Mason via email",
   "emailLink": "mailto:152batesm@gmail.com",
@@ -34,10 +35,6 @@
     {
         "title": "Portfolio",
         "link": "https://gengames.github.io/Personal_Portfolio/"
-    },
-    {
-      "title": "PROFILE",
-      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Mason"
     }
   ],
   "bio": [
