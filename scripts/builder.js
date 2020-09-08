@@ -44,9 +44,6 @@ function buildElement(elementStructure, dataSource){
 
     // add all embedded content
     for (var i = 0; i < children.length; i++) {
-      if (classHtml.includes("teamMember-card") ) {
-        console.log(children);
-      }
       html += buildElement(children[i], dataSource);
     }
 
