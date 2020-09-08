@@ -16,7 +16,10 @@
 
   ],
   "websites":[
-    
+    {
+      "title": "PROFILE",
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Scott"
+    }
   ],
   "bio": [
     {

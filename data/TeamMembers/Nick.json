@@ -24,7 +24,10 @@
 
   ],
   "websites":[
-    
+    {
+      "title": "PROFILE",
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Nick"
+    }
   ],
   "bio": [
     {

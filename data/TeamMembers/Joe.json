@@ -21,6 +21,10 @@
   ],
   "websites":[
     {
+      "title": "PROFILE",
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Joe"
+    },
+    {
       "title": "Portfolio",
       "link": "https://joegawlik.myportfolio.com/"
     },
