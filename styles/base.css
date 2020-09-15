@@ -14,8 +14,9 @@ body {
  }
 
 img.siteLogo{
-  height: 80px;
+  height: 70px;
   width: auto;
+  float: left;
 }
 
 h1#webTitle{
