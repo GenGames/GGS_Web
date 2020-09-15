@@ -1,0 +1,31 @@
+{
+  "name": "Alyssa Bump",
+  "position": "Digital Artist",
+  "picture": "/GGS_Web/assets/profilePictures/placeholder.webp",
+  "email": "Contact Lys via email",
+  "emailLink": "mailto:gen.games.studio@gmail.com",
+  "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
+  "games": [
+    {
+      "title": "Divine Intervention",
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=DivineIntervention"
+    }
+  ],
+  "articles":[
+
+  ],
+  "websites":[
+    {
+      "title": "PROFILE",
+      "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Lys"
+    }
+  ],
+  "bio": [
+    {
+      "paragraph":"Bacon ipsum dolor amet rump t-bone tri-tip corned beef meatloaf. Pig t-bone tongue ground round tri-tip. Fatback frankfurter tail porchetta. Biltong landjaeger hamburger, pork pork loin kielbasa filet mignon doner flank spare ribs pork chop bresaola burgdoggen. Rump prosciutto pork loin brisket alcatra, bacon landjaeger ham hock tail salami shankle."
+    },
+    {
+      "paragraph":"Bacon alcatra landjaeger cupim, ham doner fatback spare ribs strip steak hamburger chuck. Rump fatback frankfurter sausage, pork belly tenderloin ham. Jerky pancetta swine tri-tip doner, sirloin sausage short ribs shankle corned beef kielbasa ball tip. Flank andouille beef ball tip ham hock sirloin. Ball tip pork chop corned beef, pancetta biltong picanha tongue sausage chuck ribeye pork buffalo bacon drumstick. Chislic buffalo turkey meatloaf filet mignon boudin brisket drumstick bacon kielbasa landjaeger salami biltong pork belly kevin. Turducken meatball beef picanha biltong, cupim ham doner tail kielbasa bresaola spare ribs."
+    }
+  ]
+}

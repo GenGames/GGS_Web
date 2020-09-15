@@ -1,0 +1,75 @@
+{
+  "title": "Divine Intervention",
+  "description": "A new Game In Development",
+  "pageLink": "/GGS_Web/pages/focus/?focus=Games&target=DivineIntervention",
+  "coverTitle": "DIVINE INTERVENTION",
+  "focusImageCode":"background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(38, 36, 34)),url(/GGS_Web/assets/games/underConstruction.webp);",
+  "coverSubtitle": "",
+  "coverImage": "/GGS_Web/assets/games/underConstruction.webp",
+  "releaseDate": "Oct 19th, 2020",
+  "summary": [
+    {
+      "paragraph":"You will be able to see more soon..."
+    }
+  ],
+  "videos": [
+    {
+      "title": "",
+      "link": "",
+      "embed":"<iframe width='560' height='315' src='______' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    }
+  ],
+  "contributors":[
+    {
+      "Name":"<h3>Mason Bates</h3>",
+      "Position": "<h4>Project Lead, Software Developer</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Mason"
+    },
+    {
+      "Name":"<h3>Nick Huber</h3>",
+      "Position": "<h4>3D Artist, Software Developer</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Nick"
+    },
+    {
+      "Name":"<h3>Will Andrews</h3>",
+      "Position": "<h4>Sound Designer</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Will"
+    },
+    {
+      "Name":"<h3>Joe Gawlik</h3>",
+      "Position": "<h4>Lead Artist</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Joe"
+    },
+    {
+      "Name":"<h3>Taylor Santucci</h3>",
+      "Position": "<h4>2D Digital Artist</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Taylor"
+    },
+    {
+      "Name":"<h3>Alyssa Bump</h3>",
+      "Position": "<h4>Digital Artist</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Lys"
+    },
+    {
+      "Name":"<h3>Scott Shin</h3>",
+      "Position": "<h4>2D Digital Artist</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Scott"
+    },
+    {
+      "Name":"<h3>Jimmy Parello</h3>",
+      "Position": "<h4>3D Artist</h4>",
+      "Profile": "/GGS_Web/pages/list/?focus=TeamMembers&target=Jimmy"
+    }
+  ],
+  "additionalImages": [
+    {
+      "path":""
+    }
+  ],
+  "platforms": [
+    {
+      "platformName": "",
+      "gameLink": ""
+    }
+  ]
+}

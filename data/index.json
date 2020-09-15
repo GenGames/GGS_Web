@@ -6,7 +6,8 @@
   "Games":[
     "AkBal",
     "CyberDefense",
-    "StandardGameTemplate"
+    "StandardGameTemplate",
+    "DivineIntervention"
   ],
   "TeamMembers":[
     "Mason",
@@ -15,6 +16,7 @@
     "Nick",
     "Jimmy",
     "Scott",
-    "Taylor"
+    "Taylor",
+    "Lys"
   ]
 }
