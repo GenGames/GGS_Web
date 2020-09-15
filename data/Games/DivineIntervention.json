@@ -13,11 +13,7 @@
     }
   ],
   "videos": [
-    {
-      "title": "",
-      "link": "",
-      "embed":"<iframe width='560' height='315' src='______' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
-    }
+
   ],
   "contributors":[
     {
@@ -62,14 +58,9 @@
     }
   ],
   "additionalImages": [
-    {
-      "path":""
-    }
+
   ],
   "platforms": [
-    {
-      "platformName": "",
-      "gameLink": ""
-    }
+    
   ]
 }
