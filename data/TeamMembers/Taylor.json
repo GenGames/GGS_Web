@@ -8,7 +8,12 @@
 	"games": [{
 		"title": "AkBal",
 		"link": "/GGS_Web/pages/list/?focus=Games&target=AkBal"
-	}],
+		},
+    {
+      "title": "Divine Intervention",
+      "link": "/GGS_Web/pages/focus/?focus=Games&target=DivineIntervention"
+    }
+	],
 	"articles": [
 
 	],
