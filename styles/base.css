@@ -13,6 +13,11 @@ body {
    transition: .2s;
  }
 
+img.siteLogo{
+  height: 80px;
+  width: auto;
+}
+
 h1#webTitle{
   padding: 0;
   width: fit-content;
