@@ -1,10 +1,10 @@
 {
-  "name": "Scott Shin",
+  "name": "Bumsoo Scott Shin",
   "position": "2D Artist",
-  "picture": "/GGS_Web/assets/profilePictures/placeholder.webp",
+  "picture": "/GGS_Web/assets/profilePictures/Scott.jpg",
   "email": "Contact Scott via email",
-  "emailLink": "mailto:gen.games.studio@gmail.com",
-  "quote": "Everybody gotta, Mister Roboto. There is just no getting around that fact.",
+  "emailLink": "mailto:shinkim94@gmail.com",
+  "quote": "There is no Context without Concept.",
   "games": [
     {
       "title": "Cyber Defense",
@@ -22,14 +22,21 @@
     {
       "title": "PROFILE",
       "link": "/GGS_Web/pages/focus/?focus=TeamMembers&target=Scott"
+    },
+    {
+      "title":"Portfolio",
+      "link": "www.behance.net/BShin"
     }
   ],
   "bio": [
     {
-      "paragraph":"Bacon ipsum dolor amet rump t-bone tri-tip corned beef meatloaf. Pig t-bone tongue ground round tri-tip. Fatback frankfurter tail porchetta. Biltong landjaeger hamburger, pork pork loin kielbasa filet mignon doner flank spare ribs pork chop bresaola burgdoggen. Rump prosciutto pork loin brisket alcatra, bacon landjaeger ham hock tail salami shankle."
+      "paragraph":"Graduate of Cleveland Institute of Art with bachelor’s degree of Illustration, Bumsoo (Scott) Shin, focus his art career as a 2D character and creature concept art. His art style is flexible to fit the clients’ taste or with the project’s theme."
     },
     {
-      "paragraph":"Bacon alcatra landjaeger cupim, ham doner fatback spare ribs strip steak hamburger chuck. Rump fatback frankfurter sausage, pork belly tenderloin ham. Jerky pancetta swine tri-tip doner, sirloin sausage short ribs shankle corned beef kielbasa ball tip. Flank andouille beef ball tip ham hock sirloin. Ball tip pork chop corned beef, pancetta biltong picanha tongue sausage chuck ribeye pork buffalo bacon drumstick. Chislic buffalo turkey meatloaf filet mignon boudin brisket drumstick bacon kielbasa landjaeger salami biltong pork belly kevin. Turducken meatball beef picanha biltong, cupim ham doner tail kielbasa bresaola spare ribs."
+      "paragraph":"While studying in CIA, Scott also took minor classes for Graphic Design and Game Design. His original career plan was to become a game designer but realized in 1st year of college that he much preferred Illustration. Nonetheless, he still enjoys very much of designing a game and bringing up fresh ideas to aid the teammates for a better-quality game. Scott also loves working on Adobe Illustrator and create vector images that symbolizes the creatures/characters he designed. Scott was inspired ever since his childhood watching movies, animation, and playing videogames hoping to help create equally or even greater entertaining projects for the people."
+    },
+    {
+      "paragraph":"Scott is currently working with GGS team as a 2D Concept Artist and spends his spare time brainstorming how he can aid his teammates produce high-quality projects."
     }
   ]
 }
